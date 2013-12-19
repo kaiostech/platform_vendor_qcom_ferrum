@@ -81,6 +81,4 @@ persist.fuse_sdcard=true
 #Set for msm8916
 ro.config.low_ram=true
 ro.kernel.qemu=1
-#Set composition for USB
-persist.sys.usb.config=diag,adb
 
