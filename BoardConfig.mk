@@ -10,6 +10,9 @@ endif
 BOARD_USES_GENERIC_AUDIO := true
 USE_CAMERA_STUB := true
 
+# Compile with msm kernel
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+
 -include $(QCPATH)/common/msm8916/BoardConfigVendor.mk
 
 #TODO: Fix-me: Setting TARGET_HAVE_HDMI_OUT to false
