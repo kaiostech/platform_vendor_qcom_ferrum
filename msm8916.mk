@@ -1,3 +1,20 @@
+TARGET_USES_QCOM_BSP := true
+
+
+ifeq ($(TARGET_USES_QCOM_BSP), true)
+# Add QC Video Enhancements flag
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
+endif #TARGET_USES_QCOM_BSP
+
+
+
+
+# media_profiles and media_codecs xmls for 8916
+ifeq ($(TARGET_ENABLE_QC_AV_ENHANCEMENTS), true)
+PRODUCT_COPY_FILES += device/qcom/msm8916/media/media_profiles_8916.xml:system/etc/media_profiles.xml \
+                      device/qcom/msm8916/media/media_codecs_8916.xml:system/etc/media_codecs.xml
+endif
+
 $(call inherit-product, device/qcom/common/common.mk)
 
 PRODUCT_NAME := msm8916
@@ -8,12 +25,8 @@ PRODUCT_BOOT_JARS += qcmediaplayer:oem-services:qcom.fmradio:org.codeaurora.Perf
 # Audio configuration file
 PRODUCT_COPY_FILES += \
     device/qcom/msm8916/audio_policy.conf:system/etc/audio_policy.conf \
-
-# audio UCM files
-PRODUCT_COPY_FILES += device/qcom/msm8916/snd_soc_msm/snd_soc_msm_Taiko:system/etc/snd_soc_msm/snd_soc_msm_Taiko \
-                      device/qcom/msm8916/snd_soc_msm/snd_soc_msm_Taiko_CDP:system/etc/snd_soc_msm/snd_soc_msm_Taiko_CDP \
-                      device/qcom/msm8916/snd_soc_msm/snd_soc_msm_Taiko_Fluid:system/etc/snd_soc_msm/snd_soc_msm_Taiko_Fluid \
-                      device/qcom/msm8916/snd_soc_msm/snd_soc_msm_Taiko_liquid:system/etc/snd_soc_msm/snd_soc_msm_Taiko_liquid \
+    device/qcom/msm8916/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    device/qcom/msm8916/mixer_paths.xml:system/etc/mixer_paths.xml
 
 
 # Feature definition files for msm8916
