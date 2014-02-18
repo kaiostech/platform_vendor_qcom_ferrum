@@ -102,5 +102,6 @@ use.voice.path.for.pcm.voip=true
 ro.fm.transmitter=false
 #enable dsp gapless mode by default
 audio.offload.gapless.enabled=true
-#Set composition for USB	108
-persist.sys.usb.config=diag,adb
+
+#Set composition for USB
+persist.sys.usb.config=diag,serial_smd,rmnet_bam,adb
