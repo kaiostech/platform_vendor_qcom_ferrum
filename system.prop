@@ -104,4 +104,5 @@ ro.fm.transmitter=false
 #enable dsp gapless mode by default
 audio.offload.gapless.enabled=true
 ro.kernel.qemu=1
-
+#Set composition for USB	108
+persist.sys.usb.config=diag,adb
