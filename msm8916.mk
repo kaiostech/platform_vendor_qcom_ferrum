@@ -1,5 +1,5 @@
 TARGET_USES_QCOM_BSP := true
-
+TARGET_USES_QCA_NFC := true
 
 ifeq ($(TARGET_USES_QCOM_BSP), true)
 # Add QC Video Enhancements flag
@@ -28,6 +28,38 @@ PRODUCT_COPY_FILES += \
     device/qcom/msm8916/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     device/qcom/msm8916/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# NFC packages
+ifeq ($(TARGET_USES_QCA_NFC),true)
+NFC_D := true
+
+ifeq ($(NFC_D), true)
+    PRODUCT_PACKAGES += \
+        libnfcD-nci \
+        libnfcD_nci_jni \
+        nfcD_nci.msm8916 \
+        NfcDNci \
+        Tag \
+        com.android.nfc_extras \
+        com.android.nfc.helper
+else
+    PRODUCT_PACKAGES += \
+    libnfc-nci \
+    libnfc_nci_jni \
+    nfc_nci.msm8916 \
+    NfcNci \
+    Tag \
+    com.android.nfc_extras
+endif
+
+# file that declares the MIFARE NFC constant
+# Commands to migrate prefs from com.android.nfc3 to com.android.nfc
+# NFC access control + feature files + configuration
+PRODUCT_COPY_FILES += \
+        packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
+        frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
+        frameworks/native/data/etc/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
+        frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml
+endif # TARGET_USES_QCA_NFC
 
 # Feature definition files for msm8916
 PRODUCT_COPY_FILES += \
