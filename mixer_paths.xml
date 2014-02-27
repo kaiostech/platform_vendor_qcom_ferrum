@@ -149,6 +149,10 @@
     <ctl name="IIR1 Enable Band5" value="0" />
     <!-- IIR -->
 
+    <!-- ADSP testfwk -->
+    <ctl name="MI2S_DL_HL Switch" value="0" />
+    <!-- ADSP testfwk end-->
+
     <!-- These are audio route (FE to BE) specific mixer settings -->
     <path name="deep-buffer-playback">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="1" />
@@ -574,6 +578,10 @@
 
     <path name="voice-tty-vco-handset-mic">
         <path name="adc1" />
+    </path>
+
+    <path name="ADSP testfwk">
+        <ctl name="MI2S_DL_HL Switch" value="1" />
     </path>
 
 </mixer>
