@@ -105,3 +105,5 @@ ro.fm.transmitter=false
 audio.offload.gapless.enabled=true
 ro.kernel.qemu=1
 
+#Set composition for USB
+persist.sys.usb.config=diag,serial_smd,rmnet_bam,adb
