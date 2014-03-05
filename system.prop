@@ -19,12 +19,11 @@ DEVICE_PROVISIONED=1
 # Start in cdma mode
 ro.telephony.default_network=5
 
-debug.sf.hw=0
-debug.egl.hw=0
-debug.gralloc.map_fb_memory=1
-#debug.composition.type=c2d
-#persist.hwc.mdpcomp.enable=true
-#debug.mdpcomp.logs=0
+debug.sf.hw=1
+debug.egl.hw=1
+debug.composition.type=c2d
+persist.hwc.mdpcomp.enable=true
+debug.mdpcomp.logs=0
 dalvik.vm.heapsize=36m
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
@@ -103,7 +102,6 @@ use.voice.path.for.pcm.voip=true
 ro.fm.transmitter=false
 #enable dsp gapless mode by default
 audio.offload.gapless.enabled=true
-ro.kernel.qemu=1
 
 #Set composition for USB
 persist.sys.usb.config=diag,serial_smd,rmnet_bam,adb
