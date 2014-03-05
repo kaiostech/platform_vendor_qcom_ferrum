@@ -48,3 +48,13 @@ PRODUCT_PACKAGES += libsubsystem_control
 PRODUCT_PACKAGES += libSubSystemShutdown
 
 PRODUCT_PACKAGES += wcnss_service
+
+#wlan driver
+PRODUCT_COPY_FILES += \
+    device/qcom/msm8916/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+    device/qcom/msm8916/WCNSS_qcom_wlan_nv.bin:persist/WCNSS_qcom_wlan_nv.bin
+
+PRODUCT_PACKAGES += \
+    wpa_supplicant_overlay.conf \
+    p2p_supplicant_overlay.conf
+
