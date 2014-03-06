@@ -54,7 +54,8 @@ PRODUCT_COPY_FILES += \
 	device/lge/mako/init.mako.usb.rc:root/init.mako.usb.rc \
 	device/lge/mako/ueventd.mako.rc:root/ueventd.mako.rc \
 	device/lge/mako/vold.fstab:system/etc/vold.fstab \
-	device/lge/mako/media_profiles.xml:system/etc/media_profiles.xml
+	device/lge/mako/media_profiles.xml:system/etc/media_profiles.xml \
+	device/lge/mako/media_codecs.xml:system/etc/media_codecs.xml
 
 # Prebuilt kl and kcm keymaps
 PRODUCT_COPY_FILES += \
@@ -78,16 +79,8 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
 	frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
 	frameworks/native/data/etc/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
-	frameworks/native/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
-	frameworks/native/data/etc/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
-	frameworks/native/data/etc/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
-	frameworks/native/data/etc/android.hardware.sensor.barometer.xml:system/etc/permissions/android.hardware.sensor.barometer.xml \
-	frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
-	frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
-	frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
-	frameworks/native/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
-	frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
-	packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml
+	frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml
+#	packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.opengles.version=131072
@@ -112,11 +105,10 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
 #	hwcomposer.default
 PRODUCT_PACKAGES += \
-	libgenlock \
-	liboverlay \
-	hwcomposer.msm8960 \
-	gralloc.msm8960 \
-	copybit.msm8960
+	snd_soc_msm_2x_Fusion3 \
+	alsa.msm8960 \
+	audio_policy.msm8960 \
+	audio.primary.msm8960
 
 #Qcom spec graphics
 MM_GRAPHICS := libgsl
