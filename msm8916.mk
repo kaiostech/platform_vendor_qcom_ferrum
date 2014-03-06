@@ -38,3 +38,4 @@ PRODUCT_PACKAGES += oem-services
 PRODUCT_PACKAGES += libsubsystem_control
 PRODUCT_PACKAGES += libSubSystemShutdown
 
+PRODUCT_PACKAGES += wcnss_service
