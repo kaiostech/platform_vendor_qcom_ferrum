@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
 #fstab.qcom
 PRODUCT_PACKAGES += fstab.qcom
 
+PRODUCT_PACKAGES += \
+    libqcomvisualizer \
+    libqcompostprocbundle
+
 #OEM Services library
 PRODUCT_PACKAGES += oem-services
 PRODUCT_PACKAGES += libsubsystem_control
