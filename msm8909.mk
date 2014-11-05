@@ -1,7 +1,7 @@
 DEVICE_PACKAGE_OVERLAYS := device/qcom/msm8909/overlay
 
 TARGET_USES_QCOM_BSP := true
-ifeq ($(TARGET_PRODUCT),msm8909)
+ifneq ($(TARGET_USES_AOSP),true)
 TARGET_USES_QCA_NFC := true
 endif
 ifeq ($(TARGET_USES_QCOM_BSP), true)
@@ -44,22 +44,28 @@ NFC_D := true
 
 ifeq ($(NFC_D), true)
     PRODUCT_PACKAGES += \
-        libnfcD-nci \
-        libnfcD_nci_jni \
-        nfc_nci.msm8916 \
-        NfcDNci \
-        Tag \
+        libqnfc-nci \
+        libqnfc_nci_jni \
+        nfc_nci.msm8909 \
+        QNfc \
+	Tag \
+	GsmaNfcService \
+        com.gsma.services.nfc\
+        com.gsma.services.utils \
+        com.gsma.services.nfc.xml \
         com.android.nfc_extras \
-        com.android.nfc.helper \
-        SmartcardService \
-        org.simalliance.openmobileapi \
-        org.simalliance.openmobileapi.xml \
+        com.android.qcom.nfc_extras \
+	com.android.qcom.nfc_extras.xml \
+	com.android.nfc.helper \
+	SmartcardService \
+	org.simalliance.openmobileapi \
+	org.simalliance.openmobileapi.xml \
         libassd
 else
     PRODUCT_PACKAGES += \
     libnfc-nci \
     libnfc_nci_jni \
-    nfc_nci.msm8916 \
+    nfc_nci.msm8909 \
     NfcNci \
     Tag \
     com.android.nfc_extras
@@ -76,6 +82,15 @@ PRODUCT_COPY_FILES += \
         frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
 # Enable NFC Forum testing by temporarily changing the PRODUCT_BOOT_JARS
 # line has to be in sync with build/target/product/core_base.mk
+
+PRODUCT_BOOT_JARS := core:conscrypt:okhttp:core-junit:bouncycastle:ext:com.android.nfc.helper:framework:framework2:telephony-common:voip-common:mms-common:android.policy:services:apache-xml:webviewchromium:telephony-msim
+
+ifeq ($(NFC_D), true)
+PRODUCT_BOOT_JARS += org.simalliance.openmobileapi:com.android.qcom.nfc_extras:com.gsma.services.nfc
+# SmartcardService, SIM1,SIM2,eSE1 not including eSE2,SD1 as default
+ADDITIONAL_BUILD_PROPERTIES += persist.nfc.smartcard.config=SIM1,SIM2,eSE1
+endif
+
 endif # TARGET_USES_QCA_NFC
 
 PRODUCT_BOOT_JARS += qcmediaplayer \
