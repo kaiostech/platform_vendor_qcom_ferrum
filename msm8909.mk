@@ -3,6 +3,7 @@ DEVICE_PACKAGE_OVERLAYS := device/qcom/msm8909/overlay
 TARGET_USES_QCOM_BSP := true
 ifneq ($(TARGET_USES_AOSP),true)
 TARGET_USES_QCA_NFC := true
+TARGET_ENABLE_SMARTCARD_SERVICE := true
 endif
 ifeq ($(TARGET_USES_QCOM_BSP), true)
 # Add QC Video Enhancements flag
@@ -44,22 +45,23 @@ NFC_D := true
 
 ifeq ($(NFC_D), true)
     PRODUCT_PACKAGES += \
-        libqnfc-nci \
-        libqnfc_nci_jni \
+        libnfcD-nci \
+        libnfcD_nci_jni \
         nfc_nci.msm8909 \
+        NfcDNci \
         QNfc \
-	Tag \
-	GsmaNfcService \
+        Tag \
+        GsmaNfcService \
         com.gsma.services.nfc\
         com.gsma.services.utils \
         com.gsma.services.nfc.xml \
         com.android.nfc_extras \
         com.android.qcom.nfc_extras \
-	com.android.qcom.nfc_extras.xml \
-	com.android.nfc.helper \
-	SmartcardService \
-	org.simalliance.openmobileapi \
-	org.simalliance.openmobileapi.xml \
+        com.android.qcom.nfc_extras.xml \
+        com.android.nfc.helper \
+        SmartcardService \
+        org.simalliance.openmobileapi \
+        org.simalliance.openmobileapi.xml \
         libassd
 else
     PRODUCT_PACKAGES += \
