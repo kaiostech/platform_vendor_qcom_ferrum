@@ -30,4 +30,8 @@
     <ctrl name="max_ape_sessions" value="5" />
     <ctrl name="max_ape_keywords" value="5" />
     <ctrl name="max_ape_kw_user_pairs" value="5" />
+    <ctrl name="rx_concurrency_disabled" value="true" />
+    <!-- setting sw_mad flag indicates the underlying codec doesn't support hwmad block, hence use swmad solution -->
+    <ctrl name="sw_mad" value="true" />
+    <ctrl name="rx_conc_max_st_ses" value="0" />
 </listen_platform_info>
