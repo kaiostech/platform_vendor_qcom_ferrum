@@ -1,7 +1,7 @@
 DEVICE_PACKAGE_OVERLAYS := device/qcom/msm8909/overlay
 
 TARGET_USES_QCOM_BSP := true
-ifneq ($(TARGET_USES_AOSP),true)
+ifneq ($(TARGET_PRODUCT),msm8909_512)
 TARGET_USES_QCA_NFC := true
 TARGET_ENABLE_SMARTCARD_SERVICE := true
 endif
