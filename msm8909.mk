@@ -99,7 +99,6 @@ endif
 endif # TARGET_USES_QCA_NFC
 
 PRODUCT_BOOT_JARS += qcmediaplayer \
-                     WfdCommon \
                      oem-services \
                      qcom.fmradio \
                      org.codeaurora.Performance \
