@@ -107,7 +107,7 @@ audio.offload.min.duration.secs=30
 #use VERY_HIGH_QUALITY for audio resampler
 af.resampler.quality=4
 #Enable offload audio video playback by default
-av.offload.enable=true
+av.offload.enable=false
 #enable voice path for PCM VoIP by default
 use.voice.path.for.pcm.voip=true
 #
