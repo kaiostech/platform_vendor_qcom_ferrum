@@ -92,10 +92,6 @@ ro.qcom.screencolor=1
 # System prop to turn on CdmaLTEPhone always
 telephony.lteOnCdmaDevice=1
 
-#Simulate sdcard on /data/media
-#
-persist.fuse_sdcard=true
-
 #
 # System property for Camera
 # System prop to allocate Reprocess buffer as "1"
