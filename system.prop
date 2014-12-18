@@ -83,10 +83,6 @@ ro.qualcomm.cabl=2
 # System prop to turn on CdmaLTEPhone always
 telephony.lteOnCdmaDevice=1
 
-#Simulate sdcard on /data/media
-#
-persist.fuse_sdcard=true
-
 #
 #snapdragon value add features
 #

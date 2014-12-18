@@ -26,7 +26,7 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-dev_mount sdcard /storage/sdcard1 auto /devices/msm_sdcc.2/mmc_host
+dev_mount sdcard /storage/sdcard auto /devices/msm_sdcc.2/mmc_host
 
 # MTP
 #dev_mount sdcard2 /mnt/sdcard/external_sd auto /devices/platform/msm_sdcc.3/mmc_host
