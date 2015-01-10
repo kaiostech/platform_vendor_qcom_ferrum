@@ -28,15 +28,39 @@
 #
 #
 
+
+panelname=`getprop ro.boot.panelname`
+echo $panelname
+case $panelname in
+hx8394d_hvga_video)
+  abs_x_axis=320
+  abs_y_axis=480
+  ;;
+hx8394d_wvga_video)
+  abs_x_axis=480
+  abs_y_axis=800
+  ;;
+hx8394d_qhd_video)
+  abs_x_axis=540
+  abs_y_axis=960
+  ;;
+*)
+  echo $0: Unknown panelname: $panelname
+  log -t $0 Unknown panelname: $panelname
+  exit
+  ;;
+esac
+
+log -t $0 $panelname: $abs_x_axis x $abs_y_axis
 # Loop through the sysfs nodes and determine
-# the correct sysfs to write the qhd resolution
+# the correct sysfs to write to
 for count in 0 1 2 3 4 5 6 7 8
 do
 dir="/sys/bus/i2c/devices/5-0020/input/input"$count
   if [ -d "$dir" ]
   then
-	echo 540 > $dir/set_abs_x_axis
-	echo 960 > $dir/set_abs_y_axis
+	echo $abs_x_axis > $dir/set_abs_x_axis
+	echo $abs_y_axis > $dir/set_abs_y_axis
   fi
 done
 

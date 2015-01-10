@@ -223,8 +223,12 @@ service dts_configurator /system/bin/dts_configurator
    user system
    group system
    oneshot
-on property:persist.sys.synaptics_dsx.qhd=true
+
+on property:ro.boot.panelname=hx8394d_qhd_video
    start touch
 
-on property:persist.sys.synaptics_dsx.qhd=false
-   stop touch
+on property:ro.boot.panelname=hx8394d_wvga_video
+   start touch
+
+on property:ro.boot.panelname=hx8394d_hvga_video
+   start touch
