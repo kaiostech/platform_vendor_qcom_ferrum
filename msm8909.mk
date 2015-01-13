@@ -118,6 +118,9 @@ PRODUCT_COPY_FILES += \
 #fstab.qcom
 PRODUCT_PACKAGES += fstab.qcom
 
+#spec service
+PRODUCT_PACKAGES += init.qti.carrier.rc
+
 PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcompostprocbundle \
