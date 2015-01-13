@@ -74,7 +74,6 @@ endif
 # Commands to migrate prefs from com.android.nfc3 to com.android.nfc
 # NFC access control + feature files + configuration
 PRODUCT_COPY_FILES += \
-        packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
         frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
         frameworks/native/data/etc/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
         frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
