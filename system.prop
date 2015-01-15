@@ -132,3 +132,10 @@ ro.config.max_starting_bg=8
 persist.debug.wfd.enable=1
 #propery to enable VDS WFD solution
 persist.hwc.enable_vds=1
+
+#Trim properties
+ro.sys.fw.use_trim_settings=true
+ro.sys.fw.empty_app_percent=50
+ro.sys.fw.trim_empty_percent=100
+ro.sys.fw.trim_cache_percent=100
+ro.sys.fw.trim_enable_memory=1073741824
