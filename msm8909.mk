@@ -25,6 +25,8 @@ PRODUCT_NAME := msm8909
 PRODUCT_DEVICE := msm8909
 
 
+# Force the software home button
+PRODUCT_PROPERTY_OVERRIDES += ro.moz.has_home_button=0
 
 #Android EGL implementation
 PRODUCT_PACKAGES += libGLES_android
