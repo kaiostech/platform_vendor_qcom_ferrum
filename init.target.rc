@@ -200,8 +200,11 @@ service touch /system/bin/sh /system/etc/init.qti.synaptics_dsx_qhd.sh
    oneshot
    disabled
 
-on property:persist.sys.synaptics_dsx.qhd=true
+on property:ro.boot.panelname=hx8394d_qhd_video
    start touch
 
-on property:persist.sys.synaptics_dsx.qhd=false
-   stop touch
+on property:ro.boot.panelname=hx8394d_wvga_video
+   start touch
+
+on property:ro.boot.panelname=hx8394d_hvga_video
+   start touch
