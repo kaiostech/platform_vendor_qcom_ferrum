@@ -29,9 +29,9 @@ dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 
 #enable dirty rect
-debug.sf.swaprect=1
+debug.sf.swaprect=0
 #enable app buffer composition
-debug.sf.hwc.canUseABC=1
+debug.sf.hwc.canUseABC=0
 
 #ro.hdmi.enable=true
 #tunnel.decode=true
