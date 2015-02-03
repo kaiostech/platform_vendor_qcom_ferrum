@@ -139,6 +139,7 @@ on charger
 
 on boot
     insmod /system/lib/modules/adsprpc.ko
+    write /proc/sys/vm/swappiness 100
 
 service wcnss-service /system/bin/wcnss_service
     class late_start
