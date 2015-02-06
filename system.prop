@@ -41,11 +41,6 @@ debug.sf.hwc.canUseABC=0
 #persist.speaker.prot.enable=false
 
 #
-# system props for the cne module
-#
-persist.cne.feature=1
-
-#
 # system props for the dpm module
 #
 persist.dpm.feature=3
