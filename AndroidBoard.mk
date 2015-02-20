@@ -34,11 +34,7 @@ endif
 # Compile Linux Kernel
 #----------------------------------------------------------------------
 ifeq ($(KERNEL_DEFCONFIG),)
-    ifeq ($(TARGET_BUILD_VARIANT),user)
-      KERNEL_DEFCONFIG := msm8909-1gb-perf_defconfig
-    else
-      KERNEL_DEFCONFIG := msm8909-1gb_defconfig
-    endif
+    KERNEL_DEFCONFIG := msm8909-1gb-perf_defconfig
 endif
 
 include kernel/AndroidKernel.mk
