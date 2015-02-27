@@ -130,7 +130,7 @@ voice.voip.conc.disabled=true
 rec.playback.conc.disabled=true
 
 #Set composition for USB
-persist.sys.usb.config=diag,serial_smd,rmnet_qti_bam,adb
+persist.sys.usb.config=diag,serial_smd,rmnet_qti_bam,mass_storage,adb
 #Set read only default composition for USB
 ro.sys.usb.default.config=diag,serial_smd,rmnet_qti_bam,adb
 
