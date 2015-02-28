@@ -88,6 +88,7 @@ telephony.lteOnCdmaDevice=1
 # System prop to allocate Reprocess buffer as "1"
 # during Longshot usecase
 persist.camera.longshot.stages=1
+cameradaemon.SaveMemAtBoot=1
 
 #
 # dirty ratio value when enable ums
