@@ -24,9 +24,6 @@ $(call inherit-product, device/qcom/common/common.mk)
 PRODUCT_NAME := msm8909
 PRODUCT_DEVICE := msm8909
 
-# Force the software home button
-PRODUCT_PROPERTY_OVERRIDES += ro.moz.has_home_button=0
-
 # font rendering engine feature switch
 -include $(QCPATH)/common/config/rendering-engine.mk
 ifneq (,$(strip $(wildcard $(PRODUCT_RENDERING_ENGINE_REVLIB))))
