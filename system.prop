@@ -111,7 +111,7 @@ persist.audio.fluence.speaker=true
 tunnel.audio.encode = false
 ro.config.low_ram=false
 #Buffer size in kbytes for compress offload playback
-audio.offload.buffer.size.kb=240
+audio.offload.buffer.size.kb=64
 #Minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
 #Enable offload audio video playback by default
@@ -175,3 +175,7 @@ ro.core_ctl_present=1
 
 #Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/config
+
+#min/max cpu in core control
+ro.core_ctl_min_cpu=2
+ro.core_ctl_max_cpu=4
