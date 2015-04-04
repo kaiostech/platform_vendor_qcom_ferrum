@@ -81,6 +81,9 @@ ro.qualcomm.cabl=2
 # System property for QDCM
 persist.tuning.qdcm=1
 
+# System property for Screen Color
+ro.qcom.screencolor=1
+
 #
 # System props for telephony
 # System prop to turn on CdmaLTEPhone always
@@ -179,3 +182,8 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 #min/max cpu in core control
 ro.core_ctl_min_cpu=2
 ro.core_ctl_max_cpu=4
+
+#Enable B service adj transition by default
+ro.sys.fw.bservice_enable=true
+ro.sys.fw.bservice_limit=5
+ro.sys.fw.bservice_age=5000
