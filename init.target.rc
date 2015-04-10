@@ -137,6 +137,9 @@ service wcnss-service /system/bin/wcnss_service
     user system
     group system wifi radio
 
+on property:vold.decrypt=trigger_restart_framework
+    start imsstarter
+
 service imsqmidaemon /system/bin/imsqmidaemon
     class main
     user system
