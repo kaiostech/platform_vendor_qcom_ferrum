@@ -32,6 +32,8 @@ persist.demo.hdmirotationlock=false
 debug.sf.swaprect=1
 #enable app buffer composition
 debug.sf.hwc.canUseABC=1
+# disable vsync for cpu render apps
+debug.cpurend.vsync=false
 
 #ro.hdmi.enable=true
 #tunnel.decode=true
@@ -172,9 +174,6 @@ ro.sys.fw.trim_enable_memory=1073741824
 
 # set cutoff voltage to 3200mV
 ro.cutoff_voltage_mv=3200
-
-#To check core ctl presence
-ro.core_ctl_present=1
 
 #min/max cpu in core control
 ro.core_ctl_min_cpu=2
