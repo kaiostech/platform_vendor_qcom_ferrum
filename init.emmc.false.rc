@@ -30,7 +30,7 @@
 on fs
     mount ubifs  mtd@system   /system   ro wait bulk_read
     mount ubifs  mtd@userdata /data     nosuid nodev wait bulk_read
-    mount ubifs  mtd@cache    /cache    nosuid nodev wait bulk_read
-    mount ubifs  mtd@persist  /persist  nosuid nodev wait bulk_read
+    mount yaffs2 mtd@cache    /cache    nosuid nodev wait
+    mount yaffs2 mtd@persist  /persist  nosuid nodev wait
     mount yaffs2 mtd@modem    /firmware nosuid nodev ro wait
     trigger nonencrypted
