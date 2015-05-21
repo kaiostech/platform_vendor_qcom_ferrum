@@ -205,11 +205,6 @@ $(foreach f, $(RADIO_FILES), \
 endif
 
 #----------------------------------------------------------------------
-# extra images
-#----------------------------------------------------------------------
-include device/qcom/common/generate_extra_images.mk
-
-#----------------------------------------------------------------------
 # pick up additional files for Tiny Android builds
 #----------------------------------------------------------------------
 ifeq ($(BUILD_TINY_ANDROID), true)
