@@ -142,6 +142,23 @@ PRODUCT_PACKAGES += \
   init.emmc.true.rc \
   init.emmc.false.rc
 
+#mtd-utils tools
+PRODUCT_PACKAGES += \
+  libmtd \
+  ligubi \
+  ubinfo \
+  ubiattach \
+  ubidetach \
+  ubiformat \
+  ubimkvol \
+  ubirmvol \
+  ubiupdatevol \
+  ubicrc32 \
+  ubirename \
+  ubirsvol \
+  ubiblock \
+  mtdinfo
+
 # Defined the locales
 PRODUCT_LOCALES += th_TH vi_VN tl_PH hi_IN ar_EG ru_RU tr_TR pt_BR bn_IN mr_IN ta_IN te_IN zh_HK \
         in_ID my_MM km_KH sw_KE uk_UA pl_PL sr_RS sl_SI fa_IR kn_IN ml_IN ur_IN gu_IN or_IN en_ZA
