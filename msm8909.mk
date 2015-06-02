@@ -29,6 +29,7 @@ ifeq ($(strip $(TARGET_USES_QTIC)),true)
 -include $(QCPATH)/common/config/rendering-engine.mk
 ifneq (,$(strip $(wildcard $(PRODUCT_RENDERING_ENGINE_REVLIB))))
     MULTI_LANG_ENGINE := REVERIE
+#   MULTI_LANG_ZAWGYI := REVERIE
 endif
 endif
 
@@ -146,3 +147,7 @@ PRODUCT_LOCALES += th_TH vi_VN tl_PH hi_IN ar_EG ru_RU tr_TR pt_BR bn_IN mr_IN t
 # Add the overlay path
 PRODUCT_PACKAGE_OVERLAYS := $(QCPATH)/qrdplus/Extension/res-overlay \
         $(PRODUCT_PACKAGE_OVERLAYS)
+
+# Sensor HAL conf file
+PRODUCT_COPY_FILES += \
+    device/qcom/msm8909/sensors/hals.conf:system/etc/sensors/hals.conf
