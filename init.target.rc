@@ -99,7 +99,7 @@ service qrngp /system/bin/qrngp -f
 on property:sys.boot_completed=1
    start qrngp
 
-service qseecomd /system/bin/qseecomd
+service qseecomd /system/vendor/bin/qseecomd
    class core
    user root
    group root
@@ -155,7 +155,7 @@ service ppd /system/vendor/bin/mm-pp-daemon
     socket pps stream 0660 system system
     group system graphics
 
-service per_mgr /system/bin/pm-service
+service per_mgr /system/vendor/bin/pm-service
     class core
     user system
     group system net_raw
