@@ -31,6 +31,7 @@ on boot
     start rmt_storage
 
 on fs
+    wait /dev/block/bootdevice
     mount_all fstab.qcom
 
     # Keeping following partitions outside fstab file. As user may not have
