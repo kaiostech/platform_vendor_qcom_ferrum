@@ -34,6 +34,12 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 # set the cryptfs_hw directory path
 TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
 
+# CAF Bluetooth API is different from AOSP, so we need these flags to tell the
+# build systems that we want to use the CAF headers to build the Bluetoothd
+# daemon and gecko
+BOARD_BLUETOOTH_BDROID_USE_CAF_EXTENSIONS := true
+GECKO_CONFIGURE_ARGS+=--enable-bluetooth-bdroid-use-caf-extensions
+
 #TODO: Fix-me: Setting TARGET_HAVE_HDMI_OUT to false
 # to get rid of compilation error.
 TARGET_HAVE_HDMI_OUT := false
