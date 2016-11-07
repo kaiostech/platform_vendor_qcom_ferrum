@@ -25,10 +25,10 @@ PRODUCT_NAME := msm8909
 PRODUCT_DEVICE := msm8909
 
 # font rendering engine feature switch
--include $(QCPATH)/common/config/rendering-engine.mk
-ifneq (,$(strip $(wildcard $(PRODUCT_RENDERING_ENGINE_REVLIB))))
-    MULTI_LANG_ENGINE := REVERIE
-endif
+#-include $(QCPATH)/common/config/rendering-engine.mk
+#ifneq (,$(strip $(wildcard $(PRODUCT_RENDERING_ENGINE_REVLIB))))
+#    MULTI_LANG_ENGINE := REVERIE
+#endif
 
 #Android EGL implementation
 PRODUCT_PACKAGES += libGLES_android
