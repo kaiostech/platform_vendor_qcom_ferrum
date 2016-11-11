@@ -200,3 +200,9 @@ persist.radio.atel.carrier=405854
 # Primary card properties
 persist.radio.detect4gcard=true
 persist.radio.primarycard=true
+
+#EoGRE properties
+persist.sys.eogre.serverip=49.44.18.16
+persist.sys.eogre.vlanid=4004
+persist.sys.eogre.grekey=12345
+persist.sys.disable_eogre=true
