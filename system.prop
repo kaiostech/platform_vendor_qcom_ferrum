@@ -17,7 +17,7 @@ persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
 DEVICE_PROVISIONED=1
 # Start in cdma mode
-ro.telephony.default_network=5
+ro.telephony.default_network=9
 
 debug.sf.hw=1
 debug.egl.hw=1
@@ -193,3 +193,10 @@ ro.sys.fw.bservice_age=5000
 
 #set device emmc size
 ro.emmc_size=8GB
+
+# Property to enable RJIL features
+persist.radio.atel.carrier=405854
+
+# Primary card properties
+persist.radio.detect4gcard=true
+persist.radio.primarycard=true
