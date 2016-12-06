@@ -30,6 +30,7 @@
 
 <mixer>
     <!-- These are the initial mixer settings -->
+    <ctl name="Speaker HP Switch" value="OFF" />
     <ctl name="Voice Rx Device Mute" id="0" value="0" />
     <ctl name="Voice Rx Device Mute" id="1" value="-1" />
     <ctl name="Voice Rx Device Mute" id="2" value="20" />
@@ -546,8 +547,13 @@
     </path>
 
     <path name="speaker">
-        <ctl name="RX3 MIX1 INP1" value="RX1" />
-        <ctl name="SPK DAC Switch" value="1" />
+        <ctl name="MI2S_RX Channels" value="Two" />
+        <ctl name="RX1 MIX1 INP1" value="RX1" />
+        <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <ctl name="RDAC2 MUX" value="RX2" />
+        <ctl name="HPHL" value="Switch" />
+        <ctl name="HPHR" value="Switch" />
+	<ctl name="Speaker HP Switch" value="SPK" />
     </path>
 
     <path name="speaker-mic">
@@ -574,6 +580,7 @@
         <ctl name="RDAC2 MUX" value="RX2" />
         <ctl name="HPHL" value="Switch" />
         <ctl name="HPHR" value="Switch" />
+	<ctl name="Speaker HP Switch" value="HPH" />
     </path>
 
     <path name="headset-mic">
@@ -626,6 +633,7 @@
     </path>
 
     <path name="speaker-and-headphones">
+        <ctl name="Speaker HP Switch" value="SPKHPH" />
         <path name="headphones" />
         <path name="speaker" />
     </path>
