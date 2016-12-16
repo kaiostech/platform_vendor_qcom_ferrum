@@ -113,14 +113,6 @@ PRODUCT_BOOT_JARS += qcmediaplayer \
 PRODUCT_COPY_FILES += \
     device/qcom/msm8909/listen_platform_info.xml:system/etc/listen_platform_info.xml
 
-# Feature definition files for msm8909
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
-    frameworks/native/data/etc/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml \
-    frameworks/native/data/etc/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
-    frameworks/native/data/etc/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
-    frameworks/native/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml
-
 #fstab.qcom
 PRODUCT_PACKAGES += fstab.qcom
 
