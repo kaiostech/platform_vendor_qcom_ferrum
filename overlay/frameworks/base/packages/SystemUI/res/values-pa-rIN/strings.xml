@@ -50,4 +50,5 @@
     <string name="kg_pin_unlock_progress_dialog">"ਡਿਵਾਈਸ ਅਣਲਾਕ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"</string>
     <string name="kg_subsidy_setup_wifi">"ਵਾਈ-ਫਾਈ ਸੈੱਟਅੱਪ ਕਰੋ"</string>
     <string name="kg_dismiss_button_description">"ਲੌਕ ਸਕ੍ਰੀਨ ਬਰਖਾਸਤ ਕਰੋ"</string>
+    <string name="turn_on_data_msg">ਕਿਰਪਾ ਕਰਕੇ ਡੇਟਾ ਚਾਲੂ ਕਰੋ</string>
 </resources>

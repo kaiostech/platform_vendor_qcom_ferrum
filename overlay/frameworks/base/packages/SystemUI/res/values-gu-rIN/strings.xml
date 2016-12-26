@@ -52,4 +52,5 @@
     <string name="kg_pin_unlock_progress_dialog">ડિવાઇસને અનલૉક કરી રહ્યું છે\u2026</string>
     <string name="kg_subsidy_setup_wifi">વાઇ-ફાઇ સેટઅપ કરો</string>
     <string name="kg_dismiss_button_description">લૉક સ્ક્રીન કાઢી નાખો</string>
+    <string name="turn_on_data_msg">કૃપયા ડેટા ચાલુ કરો</string>
 </resources>

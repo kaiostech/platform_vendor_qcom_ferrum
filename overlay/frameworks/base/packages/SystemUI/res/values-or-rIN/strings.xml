@@ -50,4 +50,5 @@
     <string name="kg_pin_unlock_progress_dialog">ଡିଭାଇସ୍‌ ଅନଲକ୍‌ ହେଉଛି\u2026</string>
     <string name="kg_subsidy_setup_wifi">ୱାଇ-ଫାଇ ସେଟ୍‌ ଅପ୍‌ କରନ୍ତୁ</string>
     <string name="kg_dismiss_button_description">ଲକ୍‌ ସ୍କ୍ରିନ୍‌ ପ୍ରତ୍ୟାଖନ କରନ୍ତୁ</string>
+    <string name="turn_on_data_msg">ଦୟାକରି ଡାଟା ଟର୍ନ୍‌ ଅନ୍‌ କରନ୍ତୁ</string>
 </resources>

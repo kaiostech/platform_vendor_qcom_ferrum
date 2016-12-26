@@ -50,4 +50,5 @@
     <string name="kg_pin_unlock_progress_dialog">"آلہ غیر مقفل کرنا‎\u2026"</string>
     <string name="kg_subsidy_setup_wifi">"‎ وائی فائی ترتیب دیں "</string>
     <string name="kg_dismiss_button_description">"لاک اسکرین مسترد کریں"</string>
+    <string name="turn_on_data_msg">‎براہ کرم ڈیٹا آن کریں</string>
 </resources>

@@ -50,4 +50,5 @@
     <string name="kg_pin_unlock_progress_dialog">சாதனத்தைப் பூட்டுநீக்குகிறது\u2026</string>
     <string name="kg_subsidy_setup_wifi">வைஃபை அமைக்கவும்</string>
     <string name="kg_dismiss_button_description">பூட்டுத் திரையை நிராகரிக்கவும்</string>
+    <string name="turn_on_data_msg">தரவை ஆன் செய்யவும்</string>
 </resources>
