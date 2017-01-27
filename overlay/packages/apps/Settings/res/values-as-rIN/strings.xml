@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="turn_on_data_msg">অনুগ্ৰহ কৰি ডাটা অন কৰক</string>
     <string name="turn_off_eogre">অনুগ্ৰহ কৰি eogre অফ কৰক</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet হটস্পট</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet হটস্পট সক্ষম কৰিবলৈ অনুগ্ৰহ কৰি APN প্ৰট’কল IPv4/IPv6-লৈ পৰিৱৰ্তন কৰক আৰু পুনৰ চেষ্টা কৰক</string>
+    <string name="error_eogre_wrong_apn_text">আপুনি APN প্ৰট’কল পৰিৱৰ্তন কৰিলে JioNet হটস্পটে কাম নকৰিব পাৰে। আপুনি অব্যাহত ৰাখিব বিচাৰেনে?</string>
 </resources>

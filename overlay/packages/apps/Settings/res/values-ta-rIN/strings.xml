@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="turn_on_data_msg">தரவை ஆன் செய்யவும்</string>
     <string name="turn_off_eogre">eogre-ஐ நிறுத்தவும்</string>
+<string name="eogre_tethering_warning_dialog_title">JioNet ஹாட்ஸ்பாட்</string>
+<string name="eogre_tethering_warning_dialog_text">JioNet ஹாட்ஸ்பாட்டை இயக்க, APN ப்ரோட்டோக்காலை IPv4/IPv6-க்கு மாற்றி மீண்டும் முயற்சிக்கவும்</string>
+<string name="error_eogre_wrong_apn_text">APN ப்ரோட்டோகாலை மாற்றினால் JioNet ஹாட்ஸ்பாட் வேலை செய்யாமல் போகலாம்.  தொடர வேண்டுமா?</string>
 </resources>

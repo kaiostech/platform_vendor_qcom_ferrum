@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="turn_on_data_msg">ഡാറ്റ ഓണാക്കുക</string>
     <string name="turn_off_eogre">eogre ഓഫാക്കുക</string>
+<string name="eogre_tethering_warning_dialog_title">JioNet ഹോട്ട്‌സ്പോട്ട്</string>
+<string name="eogre_tethering_warning_dialog_text">JioNet ഹോട്ട്‌സ്പോട്ട് പ്രാപ്തമാക്കാൻ, APN പ്രോട്ടോക്കോളിനെ IPv4/IPv6 എന്നാക്കി മാറ്റി വീണ്ടും ശ്രമിക്കുക</string>
+<string name="error_eogre_wrong_apn_text">നിങ്ങൾ APN പ്രോട്ടോക്കോൾ മാറ്റുകയാണെങ്കിൽ JioNet ഹോട്ട്‌സ്പോട്ട് പ്രവർത്തിച്ചേക്കില്ല.  തുടരണമെന്ന് തീർച്ചയാണോ?</string>
 </resources>

@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
    <string name="turn_on_data_msg">దయచేసి డేటాను ఆన్ చేయండి</string>
    <string name="turn_off_eogre">దయచేసి eogre ఆఫ్ చేయండి</string>
+<string name="eogre_tethering_warning_dialog_title">JioNet హాట్‌స్పాట్</string>
+<string name="eogre_tethering_warning_dialog_text">JioNet హాట్‌స్పాట్‌ను ప్రారంభించడానికి APN ప్రోటోకాల్‌ను IPv4/IPv6కి మార్చి, ఆపై మళ్లీ ప్రయత్నించండి</string>
+<string name="error_eogre_wrong_apn_text">JioNet హాట్‌స్పాట్ మీరు APN ప్రోటోకాల్‌ను మార్చితే పని చేయకపోవచ్చు. మీరు కొనసాగదలిచారా?</string>
 </resources>

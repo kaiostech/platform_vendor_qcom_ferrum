@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="turn_on_data_msg">ਕਿਰਪਾ ਕਰਕੇ ਡੇਟਾ ਚਾਲੂ ਕਰੋ</string>
     <string name="turn_off_eogre">ਕਿਰਪਾ ਕਰਕੇ eogre ਨੂੰ ਬੰਦ ਕਰੋ</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet ਹਾਟਸਪਾਟ</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet ਹਾਟਸਪਾਟ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ APN ਪ੍ਰੋਟੋਕੋਲ ਨੂੰ IPv4/IPv6 ਵਿੱਚ ਬਦਲੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="error_eogre_wrong_apn_text">ਜੇਕਰ ਤੁਸੀਂ APN ਪ੍ਰੋਟੋਕੋਲ ਨੂੰ ਬਦਲਦੇ ਹੋ ਤਾਂ ਹੋ ਸਕਦਾ ਹੈ ਕਿ JioNet ਹਾਟਸਪਾਟ ਕੰਮ ਨਾ ਕਰੇ।  ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
 </resources>

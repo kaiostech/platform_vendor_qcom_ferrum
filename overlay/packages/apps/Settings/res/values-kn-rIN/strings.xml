@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
      <string name="turn_on_data_msg">ದಯವಿಟ್ಟು ಡೇಟಾ ಆನ್ ಮಾಡಿ</string>
      <string name="turn_off_eogre">ದಯವಿಟ್ಟು eogre ಆಫ್ ಮಾಡಿ</string>
+<string name="eogre_tethering_warning_dialog_title">JioNet ಹಾಟ್‌ಸ್ಪಾಟ್</string>
+<string name="eogre_tethering_warning_dialog_text">JioNet ಹಾಟ್‌ಸ್ಪಾಟ್ ಸಕ್ರಿಯಗೊಳಿಸಲು, ದಯವಿಟ್ಟು APN ಪ್ರೋಟೊಕಾಲ್ ಅನ್ನು IPv4/IPv6 ಗೆ ಬದಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</string>
+<string name="error_eogre_wrong_apn_text">ನೀವು APN ಪ್ರೋಟೊಕಾಲ್ ಅನ್ನು ಬದಲಿಸಿದಲ್ಲಿ JioNet ಹಾಟ್‌ಸ್ಪಾಟ್ ಕಾರ್ಯ ನಿರ್ವಹಿಸದೇ ಇರಬಹುದು.  ನೀವು ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?</string>
 </resources>

@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="turn_on_data_msg">ଦୟାକରି ଡାଟା ଟର୍ନ୍‌ ଅନ୍‌ କରନ୍ତୁ</string>
     <string name="turn_off_eogre">ଦୟାକରି eogre ଟର୍ନ୍‌ ଅଫ୍‌ କରନ୍ତୁ</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet ହଟସ୍ପଟ୍‌</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet ହଟସ୍ପଟ୍‌ ସକ୍ଷମ କରିବାକୁ, ଦୟାକରି IPv4/IPv6 ରୁ APN ପ୍ରୋଟୋକଲ୍‌ ପରିବର୍ତ୍ତନ କରନ୍ତୁ ଏବଂ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</string>
+    <string name="error_eogre_wrong_apn_text">ଯଦି ଆପଣ APN ପ୍ରୋଟୋକଲ୍‌ ପରିବର୍ତ୍ତନ କରନ୍ତି ତେବେ JioNet ହଟସ୍ପଟ୍‌ କାର୍ଯ୍ୟକରିବ ନାହିଁ। ଆପଣ ଜାରିରଖିବାକୁ ଚାହାଁନ୍ତି କି?</string>
 </resources>

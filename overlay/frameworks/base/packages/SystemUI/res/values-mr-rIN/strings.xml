@@ -50,5 +50,7 @@
     <string name="kg_pin_unlock_progress_dialog">उपकरण अनलॉक करत आहे\u2026</string>
     <string name="kg_subsidy_setup_wifi">वाय-फाय सेटअप करा</string>
     <string name="kg_dismiss_button_description">लॉक स्‍क्रीन डिसमिस करा</string>
-    <string name="turn_on_data_msg">कृपया डेटा चालू करा</string>
+    <string name="turn_on_data_msg">JioNet हॉटस्पॉट सक्षम करण्यासाठी, कृपया डेटा चालू करा</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet हॉटस्पॉट</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet हॉटस्पॉट सक्षम करण्यासाठी, कृपया APN प्रोटोकॉलला IPv4/IPv6-मध्ये बदला आणि पुन्हा प्रयत्न करा</string>
 </resources>

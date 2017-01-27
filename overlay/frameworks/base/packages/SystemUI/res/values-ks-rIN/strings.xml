@@ -50,6 +50,8 @@
     <string name="kg_pin_unlock_progress_dialog">انلاک گاسان آلہ \u2026</string>
     <string name="kg_subsidy_setup_wifi">وائی فائی کریو سیٹ اپ</string>
     <string name="kg_dismiss_button_description">لاك سكرین كریو خارج</string>
-    <string name="turn_on_data_msg">مہربانی کرتھ تراویو ڈاٹا ییلہ</string>
+    <string name="turn_on_data_msg">مہربانی کرتھ تریو ڈیٹا یل تاکی کارگر گاسی JioNet ہاٹ سپاٹ </string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet ہاٹ سپاٹ </string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet کارگر کرنہ خاطر ہاٹ سپاٹ، مہربانی کرتھ بدلاییو APN پروٹوکل IPv4/IPv6 منذ تہ کوشش دوبارہ </string>    
 </resources>
 

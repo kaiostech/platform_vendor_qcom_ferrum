@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="turn_on_data_msg">કૃપયા ડેટા ચાલુ કરો</string>
     <string name="turn_off_eogre">કૃપયા eogre બંધ કરો</string>
+<string name="eogre_tethering_warning_dialog_title">JioNet હોટસ્પોટ</string>
+<string name="eogre_tethering_warning_dialog_text">JioNet હોટસ્પોટને સક્ષમ કરવા માટે, કૃપા કરીને APN પ્રોટોકૉલને IPv4/IPv6 પર બદલો અને ફરી પ્રયાસ કરો</string>
+<string name="error_eogre_wrong_apn_text">જો તમે APN પ્રોટોકૉલ બદલો છો, તો JioNet હોટસ્પોટ કામ કરશે નહીં. શું તમે ચાલુ રાખવા માંગો છો?</string>
 </resources>

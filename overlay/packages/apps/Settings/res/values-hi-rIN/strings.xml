@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="turn_on_data_msg">कृपया डेटा चालू करें</string>
     <string name="turn_off_eogre">कृपया eogre बंद करें</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet हॉटस्पॉट</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet हॉटस्पॉट सक्षम करने के लिए, कृपया APN प्रोटोकॉल को IPv4/IPv6 में बदलें और फिर से प्रयास करें</string>
+   <string name="eogre_tethering_warning_dialog_text">JioNet हॉटस्पॉट सक्षम करने के लिए, कृपया APN प्रोटोकॉल को IPv4/IPv6 में बदलें और फिर से प्रयास करें</string>
 </resources>

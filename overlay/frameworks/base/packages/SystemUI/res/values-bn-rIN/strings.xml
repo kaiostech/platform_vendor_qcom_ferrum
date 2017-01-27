@@ -52,5 +52,7 @@
     <string name="kg_pin_unlock_progress_dialog">ডিভাইস আনলক করা হচ্ছে\u2026</string>
     <string name="kg_subsidy_setup_wifi">ওয়াই-ফাই সেটআপ করুন</string>
     <string name="kg_dismiss_button_description">লক স্ক্রিন বাতিল করুন</string>
-    <string name="turn_on_data_msg">অনুগ্রহ করে ডেটা চালু করুন</string>
+    <string name="turn_on_data_msg">JioNet হটস্পট সক্ষম করতে, অনুগ্রহ করে ডেটা চালু করুন</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet হটস্পট</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet হটস্পট সক্ষম করতে, অনুগ্রহ করে APN প্রোটোকলকে IPv4/IPv6-এ পরিবর্তন করে আবার চেষ্টা করুন</string>
 </resources>

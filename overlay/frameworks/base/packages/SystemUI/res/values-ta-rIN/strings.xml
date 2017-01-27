@@ -50,5 +50,7 @@
     <string name="kg_pin_unlock_progress_dialog">சாதனத்தைப் பூட்டுநீக்குகிறது\u2026</string>
     <string name="kg_subsidy_setup_wifi">வைஃபை அமைக்கவும்</string>
     <string name="kg_dismiss_button_description">பூட்டுத் திரையை நிராகரிக்கவும்</string>
-    <string name="turn_on_data_msg">தரவை ஆன் செய்யவும்</string>
+    <string name="turn_on_data_msg">JioNet ஹாட்ஸ்பாட்டை இயக்க தரவை ஆன் செய்யவும்</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet ஹாட்ஸ்பாட்</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet ஹாட்ஸ்பாட்டை இயக்க, APN ப்ரோட்டோக்காலை IPv4/IPv6-க்கு மாற்றி மீண்டும் முயற்சிக்கவும்</string>
 </resources>

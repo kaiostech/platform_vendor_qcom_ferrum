@@ -50,5 +50,8 @@
     <string name="kg_pin_unlock_progress_dialog">పరికరం అన్‌లాక్ చేస్తోంది\u2026</string>
     <string name="kg_subsidy_setup_wifi">వై-ఫై సెటప్ చేయండి</string>
     <string name="kg_dismiss_button_description">లాక్ స్క్రీన్‌ను తీసివేయండి</string>
-    <string name="turn_on_data_msg">దయచేసి డేటాను ఆన్ చేయండి</string>
+    <string name="turn_on_data_msg">దయచేసి JioNet హాట్‌స్పాట్‌ను ప్రారంభించడానికి డేటాను ఆన్ చేయండి</string>
+<string name="eogre_tethering_warning_dialog_title">JioNet హాట్‌స్పాట్</string>
+<string name="eogre_tethering_warning_dialog_text">JioNet హాట్‌స్పాట్‌ను ప్రారంభించడానికి APN ప్రోటోకాల్‌ను IPv4/IPv6కి మార్చి, ఆపై మళ్లీ ప్రయత్నించండి</string>
+     
 </resources>

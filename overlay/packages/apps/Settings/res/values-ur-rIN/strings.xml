@@ -31,4 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="turn_on_data_msg">‎براہ کرم ڈیٹا آن کریں</string>
     <string name="turn_off_eogre">‎براہ کرم eogre کو آف کر دیں‎</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet ہاٹ اسپاٹ</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet ہاٹ اسپاٹ فعال بنانے کے لیے براہ کرم APN پروٹوکول کو IPv4/IPv6 میں تبدیل کریں اور دوبارہ کوشش کریں</string>
+    <string name="error_eogre_wrong_apn_text">‎اگر آپ APN پروٹوکول تبدیل کرتے ہیں تو ممکن ہے JioNet کام نہ کرے۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
 </resources>

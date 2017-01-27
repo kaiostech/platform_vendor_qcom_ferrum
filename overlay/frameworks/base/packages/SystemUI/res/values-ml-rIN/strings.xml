@@ -52,5 +52,7 @@
     <string name="kg_pin_unlock_progress_dialog">"ഉപകരണം അൺലോക്ക് ചെയ്യുന്നു\u2026"</string>
     <string name="kg_subsidy_setup_wifi">"വൈ-ഫൈ സജ്ജമാക്കുക"</string>
     <string name="kg_dismiss_button_description">"ലോക്ക് സ്ക്രീൻ ഡിസ്‌മിസ് ചെയ്യുക"</string>
-    <string name="turn_on_data_msg">ഡാറ്റ ഓണാക്കുക</string>
+    <string name="turn_on_data_msg">JioNet ഹോട്ട്‌സ്പോട്ട് പ്രാപ്തമാക്കാൻ ഡാറ്റ ഓണാക്കുക</string>
+    <string name="eogre_tethering_warning_dialog_title">JioNet ഹോട്ട്‌സ്പോട്ട്</string>
+    <string name="eogre_tethering_warning_dialog_text">JioNet ഹോട്ട്‌സ്പോട്ട് പ്രാപ്തമാക്കാൻ, APN പ്രോട്ടോക്കോളിനെ IPv4/IPv6 എന്നാക്കി മാറ്റി വീണ്ടും ശ്രമിക്കുക</string>
 </resources>
