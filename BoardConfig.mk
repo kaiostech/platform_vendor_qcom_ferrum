@@ -38,7 +38,9 @@ TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
 # build systems that we want to use the CAF headers to build the Bluetoothd
 # daemon and gecko
 BOARD_BLUETOOTH_BDROID_USE_CAF_EXTENSIONS := true
-GECKO_CONFIGURE_ARGS+=--enable-bluetooth-bdroid-use-caf-extensions
+
+# Bluetooth configuration
+BOARD_HAVE_BLUETOOTH := true
 
 #TODO: Fix-me: Setting TARGET_HAVE_HDMI_OUT to false
 # to get rid of compilation error.
