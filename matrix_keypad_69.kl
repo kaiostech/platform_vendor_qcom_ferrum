@@ -1,4 +1,4 @@
-# Copyright (c) 2014, The Linux Foundation. All rights reserved.
+# Copyright (c) 2017, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -25,9 +25,29 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-key 115   VOLUME_UP
-key 114   VOLUME_DOWN
-key 102   HOME
-key 528   FOCUS
-key 766   CAMERA
-key 103   DPAD_UP
+key 2       1
+key 3       2
+key 4       3
+key 5       4
+key 6       5
+key 7       6
+key 8       7
+key 9       8
+key 10      9
+key 11      0
+
+key 139     SOFT_LEFT
+key 158     SOFT_RIGHT
+
+key 103     DPAD_UP
+key 108     DPAD_DOWN
+key 105     DPAD_LEFT
+key 106     DPAD_RIGHT
+key 352     ENTER
+key 231     CALL
+
+key 116     DEL       WAKE
+
+key 522     STAR
+key 523     POUND
+
