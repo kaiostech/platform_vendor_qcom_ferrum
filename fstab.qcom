@@ -11,3 +11,4 @@
 /dev/block/zram0             none         swap    defaults zramsize=157286400
 /devices/soc.0/7864900.sdhci/mmc_host*        /storage/sdcard   vfat    nosuid,nodev         wait,voldmanaged=sdcard:auto,encryptable=footer
 /dev/block/bootdevice/by-name/config         /frp  emmc  defaults defaults
+/dev/block/mmcblk1p1    /sdcard       vfat    defaults    nofail
