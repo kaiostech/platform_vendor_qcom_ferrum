@@ -32,11 +32,13 @@
     <string name="action_not_allowed">Not allowed</string>
 
     <string-array name="mccs_white_listed" translatable="false">
-        <item>"^405|222\\d*"</item>
+        <item>"^405\\d*"</item>
+        <item>"^222\\d*"</item>
     </string-array>
 
     <string-array name="mncs_white_listed" translatable="false">
-        <item>"^8(40|5[4-9]|6[0-9]|7[0-4])|01|1\\d*"</item>
+        <item>"^8(40|5[4-9]|6[0-9]|7[0-4])\\d*"</item>
+        <item>"^01|1\\d*"</item>
     </string-array>
 
 </resources>
