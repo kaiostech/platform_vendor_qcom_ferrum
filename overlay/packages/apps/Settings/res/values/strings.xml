@@ -28,8 +28,6 @@
     IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Not allowed to deactivate toast text -->
-    <string name="action_not_allowed">Not allowed</string>
 
     <string-array name="mccs_white_listed" translatable="false">
         <item>"^405\\d*"</item>
