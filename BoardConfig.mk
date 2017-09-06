@@ -23,7 +23,7 @@ endif
 
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_APPEND_DTB := true
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin/arm-eabi-
 
 BOARD_USES_GENERIC_AUDIO := true
 USE_CAMERA_STUB := true
@@ -48,7 +48,11 @@ TARGET_HAVE_HDMI_OUT := false
 TARGET_USES_OVERLAY := true
 TARGET_USES_PCI_RCS := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+ifeq ($(HOST_OS),darwin)
+TARGET_NO_BOOTLOADER := true
+else
 TARGET_NO_BOOTLOADER := false
+endif
 TARGET_NO_KERNEL := false
 TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RPC := true
